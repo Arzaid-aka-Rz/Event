@@ -37,7 +37,7 @@ const industries = [
 
 export default function IndustrySection() {
   return (
-    <div className="bg-white max-w-[1080px] py-8 px-5 flex flex-col">
+    <div className="bg-white max-w-[1150px] py-14 px-5 flex flex-col">
       <div className="flex gap-5 px-5 items-center">
         <div className="h-16 w-1 mt-1 bg-deepBlue mx-auto"></div>
         <h1 className="w-[100%] text-deepBlue font-mullish text-5xl font-semibold ">
