@@ -44,13 +44,15 @@ export default function Home() {
       <SpeakerSection/>
       </section>
 
+      <section className="relative mx-auto mt-20  flex w-full max-w-maxContent flex-col items-center justify-between gap-8 bg-white text-white" id="industry" >
+      <IndustrySection/>
+      </section>
+
       <section className="relative mx-auto mt-24 mb-5 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-[#000814] text-white" id="jobs" >
       <JobsSection/>
       </section>
 
-      <section className="relative mx-auto mt-20  flex w-full max-w-maxContent flex-col items-center justify-between gap-8 bg-white text-white" id="industry" >
-      <IndustrySection/>
-      </section>
+      
 
 
     </div>

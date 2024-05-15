@@ -40,12 +40,12 @@ export default function IndustrySection() {
     <div className="bg-white max-w-[1080px] py-8 px-5 flex flex-col">
       <div className="flex gap-5 px-5 items-center">
         <div className="h-16 w-1 mt-1 bg-deepBlue mx-auto"></div>
-        <h1 className="lg:w-[100%] text-deepBlue font-mullish text-5xl font-semibold ">
+        <h1 className="w-[100%] text-deepBlue font-mullish text-5xl font-semibold ">
           INDUSTRY
         </h1>
       </div>
 
-      <div className="grid grid-cols-4 gap-4 mt-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-8">
         {industries.map((industry, index) => (
           <div
             key={index}
@@ -56,7 +56,7 @@ export default function IndustrySection() {
                 <img
                   src={industry.image}
                   alt=""
-                  className="w-full h-auto"
+                  className="w-80 h-auto "
                 />
               </div>
               <div className="pt-5 text-sm font-semibold leading-5">
