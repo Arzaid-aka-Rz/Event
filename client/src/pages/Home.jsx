@@ -6,6 +6,7 @@ import AboutSection from "../components/AboutSection";
 import SpeakerSection from "../components/SpeakerSection";
 import JobsSection from "../components/JobsSection";
 import IndustrySection from "../components/IndustrySection";
+import JobsSectionTemp from "../components/JobsSectionTemp";
 
 export default function Home() {
   return (
@@ -48,8 +49,14 @@ export default function Home() {
       <IndustrySection/>
       </section>
 
-      <section className="relative mx-auto mt-20 mb-5 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-[#000814] text-white" id="jobs" >
+
+      {/* <section className="relative mx-auto mt-20 mb-5 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-[#000814] text-white" id="jobs" >
       <JobsSection/>
+      </section> */}
+
+
+      <section className="relative mx-auto mt-10 mb-5 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-[#000814] text-white" id="jobs" >
+      <JobsSectionTemp/>
       </section>
 
       
