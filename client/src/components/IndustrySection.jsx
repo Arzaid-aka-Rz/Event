@@ -5,12 +5,12 @@ import { MdAttachMoney } from "react-icons/md";
 import { GiMedicines } from "react-icons/gi";
 import { FaShoppingCart } from "react-icons/fa";
 import { GiFactory } from "react-icons/gi";
-import { BsCartXFill } from "react-icons/bs";
+import { IoStorefront } from "react-icons/io5";
 import { SiCoinmarketcap } from "react-icons/si";
 import { FaFilm } from "react-icons/fa";
 import { FaBolt } from "react-icons/fa";
 import { FaCity } from "react-icons/fa";
-import { GiTransportationRings } from "react-icons/gi";
+import { MdEmojiTransportation } from "react-icons/md";
 import { FaPlane } from "react-icons/fa";
 import { FaTools } from "react-icons/fa";
 import { GiCargoShip } from "react-icons/gi";
@@ -23,12 +23,12 @@ const industries = [
   { name: "HEALTHCARE & PHARMACEUTICALS", icon: GiMedicines },
   { name: "FMCG/CPG", icon: FaShoppingCart },
   { name: "MANUFACTURING", icon: GiFactory },
-  { name: "RETAIL", icon: BsCartXFill  },
+  { name: "RETAIL", icon: IoStorefront  },
   { name: "E-COMMERCE", icon: SiCoinmarketcap  },
   { name: "MEDIA AND ENTERTAINMENT", icon: FaFilm },
   { name: "ENERGY AND UTILITIES", icon: FaBolt },
   { name: "REAL ESTATE & INFRASTRUCTURE", icon: FaCity },
-  { name: "TRANSPORTATION", icon: GiTransportationRings },
+  { name: "TRANSPORTATION", icon: MdEmojiTransportation },
   { name: "TOURISM AND HOSPITALITY", icon: FaPlane },
   { name: "UTILITIES", icon: FaTools },
   { name: "LOGISTICS", icon: GiCargoShip  },
