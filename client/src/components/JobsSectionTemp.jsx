@@ -68,12 +68,12 @@ export default function JobsSectionTemp() {
       </div>
 
       <div className="mt-5">
-        <h2 className="text-center text-3xl font-bold">JOB TITLE</h2>
-        <div className="flex flex-wrap justify-center mt-7 gap-6">
+        <h2 className="text-center text-3xl font-bold font-mullish">JOB TITLE</h2>
+        <div className="flex flex-wrap justify-center mt-7 gap-6 ">
           {jobTitle.map((category, index) => (
             <div
               key={index}
-              className="px-6 py-2 border border-gray-400 rounded-full text-lg hover:bg-gray-300 hover:text-[#000814] transition-colors duration-300 cursor-pointer"
+              className="px-6 py-2 border  border-gray-400 rounded-full text-xl  hover:bg-gray-300 hover:text-[#000814] transition-colors duration-300 cursor-pointer"
             >
               {category}
             </div>

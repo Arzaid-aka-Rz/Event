@@ -1,38 +1,39 @@
 import React from "react";
-import GOVERNMENT from "../assets/images/government.webp";
-import BFSI from "../assets/images/BFSI.jpg";
-import FINTECH from "../assets/images/fintech.jpeg";
-import HEALTH from "../assets/images/Healthcare.jpg";
-import FMCG from "../assets/images/FMCG.png";
-import MANUFACTURING from "../assets/images/manufacturingb.jpg";
-import RETAIL from "../assets/images/Retail.png";
-import ECOMMERCE from "../assets/images/ecommerce.jpg";
-import MEDIA from "../assets/images/mediaEntertainment.jpeg";
-import ENERGY from "../assets/images/energy.jpeg";
-import REALESTATE from "../assets/images/realestate.jpg";
-import TRANSPORTATION from "../assets/images/transport.jpeg";
-import TOURISM from "../assets/images/toursim.jpeg";
-import UTILITIES from "../assets/images/Ban.jpg";
-import LOGISTICS from "../assets/images/logistics.avif";
-import EDUCATION from "../assets/images/education.webp";
+import { RiGovernmentFill } from "react-icons/ri";
+import { GiBank } from "react-icons/gi";
+import { GiFinch } from "react-icons/gi";
+import { GiMedicines } from "react-icons/gi";
+import { FaShoppingCart } from "react-icons/fa";
+import { GiFactory } from "react-icons/gi";
+import { BsCartXFill } from "react-icons/bs";
+import { SiCoinmarketcap } from "react-icons/si";
+import { FaFilm } from "react-icons/fa";
+import { FaBolt } from "react-icons/fa";
+import { FaCity } from "react-icons/fa";
+import { GiTransportationRings } from "react-icons/gi";
+import { FaPlane } from "react-icons/fa";
+import { FaTools } from "react-icons/fa";
+import { GiCargoShip } from "react-icons/gi";
+import { FaGraduationCap } from "react-icons/fa";
 
 const industries = [
-  { name: "GOVERNMENT", image: GOVERNMENT },
-  { name: "BFSI", image: BFSI },
-  { name: "FINTECH", image: FINTECH },
-  { name: "HEALTHCARE & PHARMACEUTICALS", image: HEALTH },
-  { name: "FMCG/CPG", image: FMCG },
-  { name: "MANUFACTURING", image: MANUFACTURING },
-  { name: "RETAIL", image: RETAIL },
-  { name: "E-COMMERCE", image: ECOMMERCE },
-  { name: "MEDIA AND ENTERTAINMENT", image: MEDIA },
-  { name: "ENERGY AND UTILITIES", image: ENERGY },
-  { name: "REAL ESTATE & INFRASTRUCTURE", image: REALESTATE },
-  { name: "TRANSPORTATION", image: TRANSPORTATION },
-  { name: "TOURISM AND HOSPITALITY", image: TOURISM },
-  { name: "UTILITIES", image: UTILITIES },
-  { name: "LOGISTICS", image: LOGISTICS },
-  { name: "EDUCATION", image: EDUCATION },
+  { name: "GOVERNMENT", icon: RiGovernmentFill  },
+  { name: "BFSI", icon: GiBank  },
+  { name: "FINTECH", icon: GiFinch },
+  { name: "HEALTHCARE & PHARMACEUTICALS", icon: GiMedicines },
+  { name: "FMCG/CPG", icon: FaShoppingCart },
+  { name: "MANUFACTURING", icon: GiFactory },
+  { name: "RETAIL", icon: BsCartXFill  },
+  { name: "E-COMMERCE", icon: SiCoinmarketcap  },
+  { name: "MEDIA AND ENTERTAINMENT", icon: FaFilm },
+  { name: "ENERGY AND UTILITIES", icon: FaBolt },
+  { name: "REAL ESTATE & INFRASTRUCTURE", icon: FaCity },
+  { name: "TRANSPORTATION", icon: GiTransportationRings },
+  { name: "TOURISM AND HOSPITALITY", icon: FaPlane },
+  { name: "UTILITIES", icon: FaTools },
+  { name: "LOGISTICS", icon: GiCargoShip  },
+  { name: "EDUCATION", icon: FaGraduationCap },
+  
 ];
 
 export default function IndustrySection() {
@@ -51,16 +52,12 @@ export default function IndustrySection() {
             key={index}
             className="relative cursor-pointer overflow-hidden bg-white px-6 pt-6 pb-4 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl rounded-lg"
           >
-            <div className="relative z-10">
-              <div className="pt-2 transition-all duration-300">
-                <img
-                  src={industry.image}
-                  alt=""
-                  className="w-80 h-auto "
-                />
+            <div className="relative z-10 flex flex-col items-center">
+              <div className="pt-2 transition-all duration-300 text-deepBlue text-7xl">
+                <industry.icon />
               </div>
-              <div className="pt-5 text-sm font-semibold leading-5">
-                <p className="text-deepBlue transition-all duration-300 text-center ">
+              <div className="pt-5 text-sm font-semibold leading-5 text-center">
+                <p className="text-deepBlue transition-all duration-300">
                   {industry.name}
                 </p>
               </div>
