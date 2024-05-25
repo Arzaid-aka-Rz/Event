@@ -15,31 +15,36 @@ export default function AboutSection() {
         </div>
         <div className="lg:w-[50%] flex gap-10 flex-col">
           <h1 className="lg:w-[100%] text-center text-4xl font-semibold ">
-            About<HighlightText text={" Conference"} />
+            About
+            <HighlightText text={" Conference"} />
           </h1>
 
           <p className="font-medium text-[16px] text-justify w-[100%] text-[#838894]">
-            The UIC Data Analytics Conference & Awards 2024 stands out among
-            data conferences as a pivotal gathering for chief data analytics
-            officers (CDAOs) and leaders in data and analytics (D&A) striving to
-            revolutionize their organizations through the power of data
-            analytics and AI. In today's landscape, chief data officers and D&A
-            leaders are navigating the dynamic complexities of data, analytics,
-            and AI-driven enterprises to deliver substantial value to their
-            businesses. By fostering synergies between artificial and human
-            intelligence, D&A leaders can steer their organizations towards
-            achieving strategic objectives. At the UIC Data Analytics Conference
-            & Awards, we confront these challenges head-on, arming data and
-            analytics leaders with the tools to scale your initiatives using
-            best practices in data management, architecture, and governance.
-            From maximizing business impact within budget constraints to
-            aligning data and analytics strategies and embracing AI adoption,
-            our conference ensures that attendees are not only equipped with
-            technical expertise but also empowered with strategic insights to
-            drive meaningful change and organizational success. Join us as we
-            explore the latest trends, best practices, and success stories and
-            celebrate the achievements of organizations and individuals pushing
-            the boundaries of innovation in the digital age.
+            The UIC Data Analytics & Low Code No Code Conference & Awards 2024
+            is a landmark event bringing together chief data analytics officers,
+            chief technology officers, and leaders in data, analytics, and low
+            code/no code development. This conference is designed for those
+            striving to revolutionize their organizations through the power of
+            data analytics, AI, and innovative software development approaches.
+            In today's dynamic landscape, D&A leaders and CTOs navigate the
+            complexities of data-driven and AI-powered enterprises to deliver
+            substantial business value. By fostering synergies between
+            artificial and human intelligence, and leveraging low code and no
+            code platforms, leaders can steer their organizations towards
+            strategic success. This conference addresses these challenges
+            head-on, equipping attendees with the tools to scale initiatives
+            using best practices in data management, architecture, governance,
+            and software development. At the UIC Data Analytics & Low Code No
+            Code Conference & Awards, participants will gain insights into
+            maximizing business impact within budget constraints, aligning data
+            and analytics strategies, embracing AI adoption, and optimizing
+            development workflows. The event fosters collaboration between IT
+            and business units, ensuring compliance and security in application
+            development. Join us to explore the latest trends, best practices,
+            and success stories. Celebrate the achievements of organizations and
+            individuals pushing the boundaries of innovation in the digital age,
+            and gain strategic insights to drive meaningful change and
+            organizational success.
           </p>
         </div>
       </div>

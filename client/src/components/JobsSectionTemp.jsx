@@ -69,7 +69,7 @@ export default function JobsSectionTemp() {
 
       <div className="mt-5">
         <h2 className="text-center text-3xl font-bold font-mullish">JOB TITLE</h2>
-        <div className="flex flex-wrap justify-center mt-7 gap-6 ">
+        {/* <div className="flex flex-wrap justify-center mt-7 gap-6 ">
           {jobTitle.map((category, index) => (
             <div
               key={index}
@@ -78,7 +78,7 @@ export default function JobsSectionTemp() {
               {category}
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
 
       <div className="mt-8">

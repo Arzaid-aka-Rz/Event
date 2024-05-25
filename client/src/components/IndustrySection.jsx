@@ -1,7 +1,7 @@
 import React from "react";
 import { RiGovernmentFill } from "react-icons/ri";
 import { GiBank } from "react-icons/gi";
-import { MdAttachMoney } from "react-icons/md";
+import { FaUserShield } from "react-icons/fa";
 import { GiMedicines } from "react-icons/gi";
 import { FaShoppingCart } from "react-icons/fa";
 import { GiFactory } from "react-icons/gi";
@@ -19,7 +19,7 @@ import { FaGraduationCap } from "react-icons/fa";
 const industries = [
   { name: "GOVERNMENT", icon: RiGovernmentFill  },
   { name: "BFSI", icon: GiBank  },
-  { name: "FINTECH", icon: MdAttachMoney },
+  { name: "INSURANCE", icon: FaUserShield },
   { name: "HEALTHCARE & PHARMACEUTICALS", icon: GiMedicines },
   { name: "FMCG/CPG", icon: FaShoppingCart },
   { name: "MANUFACTURING", icon: GiFactory },
