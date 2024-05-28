@@ -9,7 +9,7 @@ import JobsSection from "../components/JobsSection";
 import IndustrySection from "../components/IndustrySection";
 import JobsSectionTemp from "../components/JobsSectionTemp";
 import UIClogo from "../assets/images/UIC.png";
-
+import RegistrationFormSection from "../components/RegistrationFormSection";
 
 export default function Home() {
   return (
@@ -36,8 +36,8 @@ export default function Home() {
               Hosted by
             </h2>
             <a href="/" className="cursor-pointer ">
-        <img src={UIClogo} className="logo" alt="UIC Logo" />
-      </a>
+              <img src={UIClogo} className="logo" alt="UIC Logo" />
+            </a>
           </div>
 
           <p className="text-md sm:text-lg md:text-2xl mt-2 text-center bg-gradient-to-b from-[#eef1f3] via-[#dee2e4] to-[#98b5a4] text-transparent bg-clip-text font-bold">
@@ -72,16 +72,17 @@ export default function Home() {
       </section> */}
 
       <section
-        className="relative mx-auto mt-10 mb-5 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-[#000814] text-white"
+        className="relative mx-auto mt-10 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-[#000814] text-white"
         id="jobs"
       >
         <JobsSectionTemp />
       </section>
 
+      <section>
+        <RegistrationFormSection />
+      </section>
 
-
-
-      <style jsx>{`
+      <style jsx="Boolean">{`
         @media (max-width: 768px) {
           .logo {
             width: 100px; /* Adjust as needed for smaller screens */
@@ -93,7 +94,6 @@ export default function Home() {
           }
         }
       `}</style>
-      
     </div>
   );
 }

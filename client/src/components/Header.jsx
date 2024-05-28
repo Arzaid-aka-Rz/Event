@@ -38,7 +38,7 @@ export default function Header() {
         <i className="fa-solid fa-bars text-[30px] text-white"></i>
       </div>
 
-      <style jsx>{`
+      <style jsx="Boolean">{`
         @media (max-width: 768px) {
           .logo {
             width: 100px; /* Adjust as needed for smaller screens */
