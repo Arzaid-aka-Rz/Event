@@ -13,7 +13,7 @@ import RegistrationFormSection from "../components/RegistrationFormSection";
 
 export default function Home() {
   return (
-    <div className="bg-[#000814] flex flex-col font-inter overflow-hidden">
+    <div className="bg-[#000814] flex flex-col  min-h-screen w-screen">
       <section
         className="relative bg-cover bg-center xl:h-screen sm:h-screen md:h-screen items-center"
         style={{ backgroundImage: `url(${Banner})` }}
